@@ -1,0 +1,602 @@
+@charset"utf-8";
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box
+}
+
+body,
+button,
+html,
+input,
+select,
+textarea {
+    font-size: 18px;
+    font-family: PingFang-Medium, PingFangSC-Regular, Heiti, Heiti SC, DroidSans, DroidSansFallback, "Microsoft YaHei", sans-serif;
+    -webkit-font-smoothing: antialiased
+}
+
+body,
+dd,
+div,
+dl,
+dt,
+fieldset,
+form,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+li,
+ol,
+p,
+td,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-weight: 400
+}
+
+.page,
+body {
+    background: #F6F6F9
+}
+
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+:focus {
+    outline: 0
+}
+
+a,
+a:active,
+a:hover,
+a:link {
+    text-decoration: none;
+    color: #333;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+}
+
+input[type="tel"],
+input[type="text"],
+input[type="number"] {
+    -webkit-appearance: none;
+    border-radius: 0;
+    background: transparent;
+    border: 0;
+    display: block;
+}
+
+@media only screen and (max-width: 310px) and (min-width:300px) {
+    input,
+    html {
+        font-size: 12px
+    }
+}
+
+@media only screen and (max-width: 320px) and (min-width:310px) {
+    input,
+    html {
+        font-size: 12px
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width:320px) {
+    input,
+    html {
+        font-size: 12px
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-width:350px) {
+    input,
+    html {
+        font-size: 14px
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width:360px) {
+    input,
+    html {
+        font-size: 14px
+    }
+}
+
+@media only screen and (max-width: 480px) and (min-width:470px) {
+    input,
+    html {
+        font-size: 14px
+    }
+}
+
+@media only screen and (max-width: 560px) and (min-width:480px) {
+    input,
+    html {
+        font-size: 13.33px
+    }
+}
+
+@media only screen and (max-width: 570px) and (min-width:560px) {
+    input,
+    html {
+        font-size: 15.83px
+    }
+}
+
+@media only screen and (max-width: 640px) and (min-width:570px) {
+    input,
+    html {
+        font-size: 15.83px
+    }
+}
+
+@media only screen and (max-width: 640px) and (min-width:630px) {
+    html {
+        font-size: 17.78px
+    }
+}
+
+@media only screen and (max-width: 710px) and (min-width:640px) {
+    input,
+    html {
+        font-size: 17.78px
+    }
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+body,
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+.page {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    min-height: 100%;
+    transition: transform .425s cubic-bezier(.4, .6, .2, 1);
+    -webkit-transition: transform .425s cubic-bezier(.4, .6, .2, 1);
+    font-size: 1.2rem;
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    z-index: 99;
+}
+
+.box {
+    display: box;
+    display: -webkit-box;
+}
+
+.box>* {
+    box-flex: 1;
+    -webkit-box-flex: 1;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.page .marg15 {
+    margin: 1rem 0;
+}
+
+.page .marg-top15 {
+    margin-top: 1.5rem;
+}
+
+.page .marg-top8 {
+    margin-top: 0.8rem;
+}
+
+.page .marg-bottom15 {
+    margin: 0 0 1rem 0;
+}
+
+
+/********* icon **********/
+
+.arrows-right {
+    position: relative;
+}
+
+.arrows-right:before {
+    content: '';
+    height: .7rem;
+    width: .7rem;
+    display: block;
+    border: 1px solid #999;
+    border-left-width: 0;
+    border-top-width: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    top: .4rem;
+    right: 0;
+}
+
+.icon-add:before,
+.icon-add:after {
+    content: '';
+    height: .2rem;
+    width: 1.5rem;
+    display: block;
+    background: #666;
+    position: absolute;
+    top: 1.8rem;
+    right: .3rem;
+}
+
+.icon-add:after {
+    height: 1.5rem;
+    width: .2rem;
+    top: 1.2rem;
+    right: 1rem;
+}
+
+.page .btn.on {
+    background: #D4DFE6;
+}
+
+.page .btn.on,
+.page .tap-tran {
+    tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.page .btn {
+    background: #539FFC;
+    border-radius: 6px;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
+    text-align: center;
+    margin: 0 1.3rem;
+    transition: background .5s ease;
+    -webkit-transition: background .5s ease;
+}
+
+.hide {
+    display: none;
+}
+
+.toverflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.page .table {
+    position: relative;
+    margin: 1.3rem;
+}
+
+.page .table .table-td {
+    display: inline-block;
+    color: #666;
+}
+
+.page .table .table-td:last-child {
+    position: absolute;
+    right: 0;
+}
+
+.page .font-red {
+    color: #FF5340;
+}
+
+.page .font-def {
+    color: #333;
+}
+
+.page .font-gray {
+    color: #999
+}
+
+.page .text-center {
+    text-align: center;
+}
+
+.page .bg-white {
+    background: white;
+}
+
+.page .code-img {
+    height: 1rem;
+    width: 15rem;
+    margin-top: -.4rem;
+    margin-right: 1rem;
+}
+
+.abs-bottom {
+    position: absolute;
+    bottom: 3rem;
+    left: 0;
+    right: 0;
+}
+
+
+/***************输入密码样式**************/
+
+.km-input-pw {
+    width: 100%;
+    background: #f2f2f2;
+}
+
+.km-input-pw h2 {
+    text-align: center;
+    padding: 11px 20px;
+    font-size: 1.4rem;
+    color: #333333;
+    letter-spacing: -0.43px;
+    border-bottom: 1px solid #E8E8E8;
+    position: relative;
+}
+
+.km-input-pw h2 span {
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    float: left;
+}
+
+.km-input-pw h2 .close:before,
+.km-input-pw h2 .close:after {
+    content: '';
+    height: 2px;
+    width: 16px;
+    display: block;
+    background: #999999;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    position: absolute;
+    top: 13px;
+    left: 0px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+}
+
+.km-input-pw h2 .close:after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.km-input-pw .pw {
+    margin-top: 1rem;
+    padding: 1.2rem 1.4rem;
+}
+
+.pay-pwd-box {
+    position: relative;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.pay-pwd-box:before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    background-color: #f2f2f2;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, .09);
+    box-sizing: border-box;
+}
+
+.pay-pwd-box ul {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.pay-pwd-box ul li {
+    width: 16.6666%;
+    height: 100%;
+    text-align: center;
+    float: left;
+    border-right: 1px solid #E6E6E6;
+}
+
+.pay-pwd-box ul li i {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 15px auto 0;
+    opacity: 0;
+}
+
+.pay-pwd-box ul li:first-child {
+    border-left: 0;
+}
+
+.pay-pwd-box ul li:last-child {
+    border-right: 0;
+}
+
+.pay-pwd-box ul li.zmarked i {
+    opacity: 1;
+}
+
+.forget-pw {
+    padding: 0 1.4rem;
+    margin-bottom: 5rem;
+}
+
+.forget-pw p {
+    text-align: right;
+    font-size: 1.2rem;
+    letter-spacing: -0.34px;
+}
+
+.forget-pw p a {
+    color: #2791DA;
+}
+
+.keylist {
+    background: #fff;
+}
+
+.keylist li {
+    width: 33.33%;
+    float: left;
+    /*border-right: 1px solid #a9a9a9;*/
+    /*border-bottom: 1px solid #a9a9a9;*/
+    padding: 0.6rem 1.4rem;
+    box-shadow: 1px 1px 1px #eeeff1;
+}
+
+.keylist li:nth-child(3n) {
+    border-right: none;
+}
+
+.keylist li p {
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+.keylist li p.yy {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.keylist li:last-child p span {
+    width: 30px;
+    height: 16px;
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.keylist li:last-child .clear:before,
+.keylist li:last-child .clear:after {
+    content: '';
+    height: 13px;
+    width: 12px;
+    display: block;
+    border: 2px solid #000;
+    position: absolute;
+}
+
+.keylist li:last-child .clear:before {
+    border-right-width: 0;
+    border-bottom-width: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    top: 8px;
+    left: 9px;
+}
+
+.keylist li:last-child .clear:after {
+    border-left-width: 0;
+    height: 17px;
+    width: 16px;
+    top: 6px;
+    right: 0;
+}
+
+.keylist li:last-child .clear i {
+    height: 6px;
+    width: 6px;
+    display: block;
+    position: relative;
+    top: 13px;
+    left: 16px;
+}
+
+.keylist li:last-child .clear i:before,
+.keylist li:last-child .clear i:after {
+    content: '';
+    height: 2px;
+    width: 8px;
+    display: block;
+    background: #000;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+}
+
+.keylist li:last-child .clear i:after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}

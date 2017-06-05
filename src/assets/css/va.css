@@ -1,0 +1,236 @@
+.va.first {
+    border-top: none;
+}
+
+.va {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 1rem;
+}
+
+.va .col .va-body>* {
+    position: absolute;
+}
+
+.va .col .va-body {
+    margin: 0 1rem;
+    position: relative;
+    line-height: 4rem;
+    height: 4rem;
+    margin-left: 0;
+}
+
+.va .col {
+    border-bottom: 1px solid #f3f3f3;
+    margin-left: 1rem;
+}
+
+.va .col a {
+    display: block;
+}
+
+.va .col.full {
+    margin-left: 0;
+    padding-left: 1rem;
+}
+
+.va .col:last-child {
+    border-bottom: 0;
+}
+
+.va .col .va-p-text {
+    left: 0;
+}
+
+.va .col span {
+    left: .5rem;
+}
+
+.va .col .placeholder {
+    left: 6rem;
+    color: #666;
+}
+
+.va .col .arrows-right label {
+    right: 1.5rem;
+}
+
+.va .col a.tel,
+.va .va-code.on,
+.va .va-row .va-row-val,
+.va .col label {
+    color: #999;
+}
+
+.va .col .right,
+.va .col label {
+    right: .5rem;
+}
+
+.va .va-link {
+    color: #2791DA;
+}
+
+.va .col .arrows-right:before {
+    top: 1.7rem;
+    right: .5rem;
+}
+
+.va .va-form {
+    padding: 1.2rem 0;
+    position: relative;
+}
+
+.va .va-form.arrows-right:before {
+    right: 1.5rem
+}
+
+.va .va-row {
+    padding: 1rem 0;
+}
+
+.va .va-row .va-row-title {
+    width: 4.5rem;
+    display: inline-block;
+}
+
+.va .va-row .va-row-val {
+
+}
+
+.va .va-form>div {
+    display: inline-block;
+    position: absolute;
+}
+
+.va .va-form .va-form-text {
+    position: relative;
+}
+
+.va .va-form-el {
+    right: 0;
+    left: 6rem;
+}
+
+.va .va-form-el textarea {
+    background: #f5f5f5;
+    padding: 5px;
+}
+
+.va .el-area {
+    height: 10rem;
+}
+
+.va-box {
+    margin: 0 1rem .5rem 0;
+}
+
+.va-box .va-box-inner {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    background: #FFFFFF;
+}
+
+.va-box .va-box-inner>div {
+    border: 1px solid #2791DA;
+    border-radius: 4px;
+    color: #2791DA;
+    margin: .5rem;
+    margin-top: 0;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.5rem;
+}
+.va-box .va-box-inner.cp>div{
+    background: #95CBF0;
+    color:#fff;
+}
+
+.va .va-ele {
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    font-size: 1rem;
+    display: block;
+    width: 97%;
+    border: 0;
+    text-align: left;
+}
+
+.va select {
+    border: 0;
+    background: transparent;
+    border-radius: 0;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+
+/****意见反馈样式***/
+
+.row-field {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 1rem;
+    letter-spacing: -0.34px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.row-field .field {
+    border-bottom: 1px solid #f3f3f3;
+    margin-left: 1rem;
+    position: relative;
+    padding: 1rem 0;
+    overflow: hidden;
+}
+
+.row-field .field-area {
+    padding-right: 1rem;
+}
+
+.row-field .arrows-right:before {
+    right: 1.5rem;
+    top: 1.46rem;
+}
+
+.row-field .field textarea {
+    background: #f5f5f5;
+    padding: 5px;
+    font-size: 1rem;
+    border: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.row-field .item-title {
+    color: #333333;
+    width: 40%;
+}
+
+.row-field .field-img .item-title {
+    height: 3.8rem;
+    line-height: 3.8rem;
+}
+
+.row-field .item-info {
+    color: #999999;
+    width: 60%;
+    text-align: right;
+    padding-right: 2.2rem;
+}
+
+.row-field .item-info .headimg {
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}

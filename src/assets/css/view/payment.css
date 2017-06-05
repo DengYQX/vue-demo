@@ -1,0 +1,327 @@
+/**
+*author:sjl
+*data:2017.03.25
+*desc:付款
+*/
+
+.pay {
+    margin-top: 3.4rem;
+}
+
+.pay-top-wrap {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding-top: 1.8rem;
+}
+
+.pay-top-wrap .head-pic {
+    height: 6rem;
+}
+
+.pay-top-wrap .head-pic .pic {
+    height: 5.8rem;
+    width: 5.8rem;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.pay-top-wrap .pay-name {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.pay-top-wrap .pay-name .name {
+    color: #000;
+    font-size: 1.6rem;
+    letter-spacing: 0.39px;
+    font-weight: 600;
+}
+
+.pay-top-wrap .pay-name .tel {
+    font-size: 1.4rem;
+    color: #999999;
+    letter-spacing: -0.39px;
+    margin-top: 0.6rem;
+}
+
+.pay-top-wrap .pay-btn {
+    margin-top: 2.4rem;
+    padding: 0 1.2rem;
+}
+
+.mint-button--primary {
+    background-color: #2791DA;
+    border-radius: 6px;
+}
+
+.pay-top-wrap .pay-btn p {
+    font-size: 1.4rem;
+    color: #666666;
+    letter-spacing: -0.34px;
+    margin-top: 1rem;
+}
+
+
+/**************************付款成功页面样式********************************/
+
+.pay-done-top {
+    height: 5.6rem;
+    padding: 1.4rem;
+}
+
+.pay-done-top .pic {
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+    background: red;
+}
+
+.pay-done-top .name {
+    color: #000;
+    font-size: 1.6rem;
+    letter-spacing: 0.39px;
+    margin: 0.5rem 1.1rem 0;
+    font-weight: 600;
+}
+
+.pay-done-wrap {
+    height: 10rem;
+    background: #FFFFFF;
+    padding: 2.2rem;
+}
+
+.pay-done-wrap>* {
+    text-align: center;
+}
+
+.pay-done-wrap .money {
+    font-size: 2.8rem;
+    color: #333333;
+    letter-spacing: -0.72px;
+}
+
+.pay-done-wrap .tip {
+    font-size: 1.6rem;
+    color: #12BB20;
+    letter-spacing: -0.39px;
+    margin-top: 0.7rem;
+}
+
+.pay-done-btn {
+    margin-top: 2.4rem;
+    padding: 0 1.2rem;
+}
+
+
+/**end***/
+
+
+/**************************交易记录********************************/
+
+.trad-wrap dl {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.trad-wrap dl dt {
+    height: 2.8rem;
+    background: #F1F3F5;
+    font-size: 1.2rem;
+    color: #999999;
+    letter-spacing: -0.34px;
+    padding: 0.4rem 1.2rem;
+}
+
+.trad-wrap dl dd {
+    background: #fff;
+    padding-left: 1.2rem;
+}
+
+.trad-wrap .trads {
+    border-bottom: 1px solid #F1F3F5;
+    padding: 0.8rem 1.2rem 0.8rem 0;
+}
+
+.trad-wrap dd:last-child .trads {
+    border-bottom: none;
+}
+
+.trads w50 {
+    width: 50%;
+}
+
+.trad-wrap .trads .trad-item-top>div {
+    font-size: 1.2rem;
+    color: #333333;
+    letter-spacing: -0.39px;
+}
+
+.trad-wrap .trads .trad-item-bot {
+    margin-top: 0.5rem;
+}
+
+.trad-wrap .trads .trad-item-bot>div {
+    font-size: 1rem;
+    color: #999999;
+    letter-spacing: -0.29px;
+}
+
+.red {
+    color: #FF7272;
+}
+
+
+/****end***/
+
+
+/**************************卡卷********************************/
+
+    .card-page .mint-tab-item:first-child {
+        border-right: 1px solid #F1F3F5;
+    }
+
+    .card-page .footer {
+        height: 2.8rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-page .footer p a {
+        font-size: 1.2rem;
+        color: #999999;
+        letter-spacing: -0.34px;
+    }
+
+    .card-page .mint-tab-item {
+        position: relative;
+    }
+
+    .card-page .mint-tab-item.is-selected {
+        color: #2791DA;
+        /*border-bottom: none;*/
+        border-bottom-color: #2791DA; 
+    }
+
+    /*.card-page .mint-tab-item.is-selected:after {
+        content: '';
+        width: 3.8rem;
+        height: 2px;
+        background: #2791DA;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 37%;
+    }*/
+
+    .tab-content {
+        margin-top: 0.4rem;
+        padding: 0 1.2rem;
+    }
+
+    .tab-content .yfk-item {
+        padding: 1.2rem 1.2rem;
+        background: #fff;
+        margin-top: 1rem;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.10);
+        border-radius: 4px;
+    }
+
+    .tab-content .yfk-item .icon {
+        height: 0.8rem;
+        width: 0.8rem;
+        display: block;
+        border: 1px solid #999;
+        border-left-width: 0;
+        border-top-width: 0;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        margin-top: 18px;
+    }
+
+    .tab-content .yfk-item .img {
+        width: 3.8rem;
+        height: 3.8rem;
+        border-radius: 50%;
+    }
+
+    .tab-content .yfk-item .card-name {
+        font-size: 1.2rem;
+        color: #333333;
+        letter-spacing: -0.39px;
+        line-height: 3.8rem;
+        margin-left: 1.2rem;
+    }
+
+    .tab-content .dzj-item {
+        position: relative;
+    }
+
+    .tab-content .dzj-item:before {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 0.3rem;
+        background: #FC968B;
+        top: 0;
+        position: absolute;
+    }
+
+    .tab-content .dzj-item:after {
+        display: block;
+        content: '';
+        width: 98%;
+        height:0.3rem;
+        background: #FC968B;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.10);
+        border-radius: 4px 4px 0 0;
+        left: 1%;
+        position: absolute;
+        bottom: -3px;
+        z-index: 9;
+    }
+
+    .tab-content .dzj-item .nei {
+        padding: 1.2rem 1.2rem;
+        background: #fff;
+        margin-top: 1rem;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.10);
+        border-radius: 4px;
+    }
+
+    .stab-content .dzj-item .topinfo>div {
+        font-size: 1.4rem;
+        color: #333333;
+        letter-spacing: -0.39px;
+    }
+
+    .tab-content .dzj-item .topinfo .info-title {
+        width: 70%;
+        font-size: 1.6rem;
+        color: #333333;
+        letter-spacing: -0.39px;
+        text-align: left;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .tab-content .dzj-item .topinfo .number {
+        font-size: 1.6rem;
+        color: #FF5340;
+        width: 30%;
+        text-align: right;
+    }
+
+    .tab-content .dzj-item .botinfo {
+        font-size: 12px;
+        color: #999999;
+        letter-spacing: -0.29px;
+        margin-top: 0.6rem;
+    }
+    /***end**/

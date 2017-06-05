@@ -1,0 +1,356 @@
+/*
+*公用样式
+*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.hide {
+    display: none!important;
+}
+
+.pay {
+    margin-top: 3.4rem;
+}
+
+.no-datalist{
+    text-align: center;
+}
+.no-datalist img{
+    width: 9.2rem;
+    height: auto;
+    margin-top: 15rem;
+}
+/******************下载*******************/
+
+.download {
+    opacity: 0.8;
+    background: #000000;
+    position: fixed;
+    bottom: 4.6rem;
+    height: 5rem;
+    width: 100%;
+    padding: 0.6rem 1.4rem;
+    color: #fff;
+    width: 100%;
+}
+
+.download>* {
+    height: 100%;
+}
+
+.down-info {
+    width: 60%;
+    position: relative;
+}
+
+.down-info .img {
+    width: 3.6rem;
+    height: 3.6rem;
+    background-image: url('../../images/logo.png');
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.down-info .info {
+    position: absolute;
+    left: 4.6rem;
+    top: 0.3rem;
+}
+
+.down-info .info p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.down-btn {
+    display: block;
+    width: 7.8rem;
+    height: 2.8rem;
+    border: 1px solid #2791DA;
+    color:#2791DA;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 2.8rem;
+    margin-top: 0.5rem;
+}
+
+
+/******************行列表*******************/
+
+.col-field {
+    background: #FFFFFF;
+    margin-top: 0.8rem;
+    padding-left: 0.8rem;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.col-field li {
+    border-bottom: 1px solid #F1F3F5;
+    padding: 1.2rem 1.2rem 1.2rem 0;
+}
+
+.col-field li:last-child {
+    border-bottom: none;
+}
+
+.col-field li .pay-done-item>div {
+    float: left;
+    letter-spacing: -0.34px;
+    font-size: 1.2rem;
+}
+
+.col-field li .pay-done-item .item-title {
+    width: 30%;
+    color: #333333;
+    padding-left: 1rem;
+}
+
+.col-field li .pay-done-item .item-info {
+    width: 70%;
+    text-align: right;
+    color: #999999;
+}
+
+.col-field li .pay-done-item .blue {
+    color: #2791DA;
+}
+
+
+/***消费-卡卷列表***/
+
+.kj_head {
+    padding: 10px;
+}
+
+.kj_head>div {
+    width: 50%;
+}
+
+.kj_head div.more {
+    text-align: right;
+}
+
+.kj_head div.more a,
+.kj_head .tilte {
+    font-size: 1rem;
+    color: #999999;
+    letter-spacing: -0.29px;
+}
+
+.kj_head .tilte .img {
+    height: 1.4rem;
+    position: relative;
+}
+
+.kj_head .tilte .img span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 1.8rem;
+}
+
+.kj_head .tilte .img:before {
+    content: '';
+    border-radius: 2px;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 0.5rem;
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+}
+
+.kj_head .tilte .img-dzj:before {
+    background-image: url('../../images/j_dzj.png');
+}
+
+.kj_head .tilte .img-yfk:before {
+    background-image: url('../../images/j_yfk.png');
+}
+
+
+/***************卷列表****************/
+
+.col-img-link {
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.col-img-link li {
+    position: relative;
+    padding: 1.2rem 1.4rem;
+    background-color: #fff;
+    border-top: 1px solid #F1F3F5;
+}
+
+.col-img-link li .left-con {
+    width: 70%;
+}
+
+.col-img-link li .right-con {
+    width: 30%;
+}
+
+.col-img-link li .left-con>div {
+    display: inline-block;
+    float: left;
+}
+
+.col-img-link li .left-con .j_img {
+    width: 3.8rem;
+    height: 3.8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1rem;
+}
+
+.col-img-link li .left-con .j_info h3 {
+    font-size: 1.2rem;
+    color: #333333;
+    letter-spacing: -0.39px;
+}
+
+.col-img-link li .left-con .j_info .j_price {
+    font-size: 1rem;
+    color: #999999;
+    letter-spacing: -0.29px;
+    margin-top: 0.6rem;
+}
+
+.col-img-link li .left-con .j_info .j_price .now_price {
+    color: #FF7272;
+    margin-right: 1rem;
+}
+
+.col-img-link li .right-con {
+    line-height: 3.8rem;
+    text-align: right;
+    color: #999999;
+}
+
+.col-img-link li .right-con .j_btn {
+    font-size: 1rem;
+    color: #2791DA;
+    letter-spacing: -0.29px;
+}
+
+.col-img-link li .right-con .j_btn span {
+    display: inline-block;
+    border: 1px solid #2791DA;
+    border-radius: 6px;
+    height: 2.2rem;
+    line-height: 1.4rem;
+    padding: 0.4rem 1.4rem;
+}
+
+.col-field .oper {
+    margin-left: 0.8rem;
+    height: 2.6rem;
+}
+
+.col-field .minus,
+.col-field .add {
+    width: 2.6rem;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 2px;
+    position: relative;
+}
+
+.col-field .number {
+    width: 5.6rem;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+.col-field .minus.active,
+.col-field .add.active {
+    border-color: #2791DA;
+}
+
+.col-field .add:before,
+.col-field .minus:before,
+.col-field .add:after {
+    content: '';
+    display: block;
+    background: #999;
+    position: absolute;
+}
+
+.col-field .add.active:before,
+.col-field .minus.active:before,
+.col-field .add.active:after {
+    background: #2791DA;
+}
+
+.col-field .minus:before {
+    height: 2px;
+    width: 1.6rem;
+    top: 1.2rem;
+    left: 0.4rem;
+}
+
+.col-field .add:before {
+    height: 2px;
+    width: 1.6rem;
+    top: 1.20rem;
+    left: 0.45rem;
+}
+
+.col-field .add:after {
+    height: 1.6rem;
+    width: 2px;
+    top: 0.5rem;
+    left: 1.2rem;
+}
+
+
+.col-field .number input[type='number'] {
+    border: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+/********************卡卷详情通用文本列表样式************************/
+
+.search-list .item .content>p {
+    font-size: 1rem;
+    color: #999999;
+    margin-top: 0.2rem;
+}
+
+.col-text {
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    padding: 1.2rem 1.4rem;
+    background-color: #fff;
+    margin-top: 0.8rem;
+}
+
+.col-text p {
+    font-size: 1.2rem;
+    color: #666666;
+    letter-spacing: 0.34px;
+    line-height: 1.8rem;
+}
+
+.fixd-btn {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    z-index: 300;
+    padding: 0.4rem 1.4rem;
+    background-color: #fff;
+    width: 100%;
+}

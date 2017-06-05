@@ -1,0 +1,9 @@
+.logo{
+
+}
+.logo div{
+    height: 5rem;
+    width: 5rem;
+    background: #ddd;
+    margin: 2rem auto;
+}
